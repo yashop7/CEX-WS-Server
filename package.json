@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tsc -b",
-    "start": "npm run build && node dist/index.js",
-    "dev": "npm run start"
+    "build": "bunx tsc -b",
+    "start": "bun run build && node dist/index.js",
+    "dev": "bun run start"
   },
   "keywords": [],
   "author": "",
